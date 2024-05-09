@@ -138,4 +138,8 @@ public class Main {
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,true);
         marshaller.marshal(transaccion,new FileOutputStream(path));
     }
+
+    public static void solucionConflicto(){
+        System.out.println("solucion");
+    }
 }
