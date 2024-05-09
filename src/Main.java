@@ -38,7 +38,6 @@ public class Main {
         String resultado = block1.split(":")[1];
         resultado = resultado.replace("}", "");
         resultado = resultado.replace("{", "");
-
         DatosDestino datos1 = new DatosDestino();
         datos1.setCodigoBanco(resultado.substring(0, 4));
         datos1.setNombreBanco((resultado.substring(4, 12)));
@@ -58,7 +57,6 @@ public class Main {
         }
         return mapa;
     }
-//1. hacer un for para recorrer el array del split, 2.eliminar las llaves que tenga, 3. hacer split por :4.Stringagregar al mapa el key value
 
     public static Map<String,Object> getBusinessData(String block4){
         String [] array = block4.split("\n");
@@ -73,8 +71,6 @@ public class Main {
         businessData.put("59",getTag59(array));
         return businessData;
     }
-
-
 
     public  static String getTagOneLine(String[] array,String tag){
        int pos = findTagPosition(array,tag);
@@ -114,7 +110,6 @@ public class Main {
         String refPago = array[++pos];
         String ciudad = array[++pos];
         String pais = array[++pos];
-
         return new Tag59(nCuenta,refPago,ciudad,pais);
     }
 
@@ -137,5 +132,9 @@ public class Main {
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,true);
         marshaller.marshal(transaccion,new FileOutputStream(path));
+    }
+
+    public static void conflictoPrueba() {
+        System.out.println("Hola");
     }
 }
