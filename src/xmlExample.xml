@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaccion>
+    <businessData>
+        <entry>
+            <key>50K</key>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tag50K">
+                <ciudad>VINA DEL MAR VINA DEL MAR</ciudad>
+                <direccion>MONTANA 712   DPTO 1A</direccion>
+                <nombre>FLEXING CHILE SPA</nombre>
+                <pais>CHILE</pais>
+                <rut>/76592530-4</rut>
+            </value>
+        </entry>
+        <entry>
+            <key>23B</key>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">CRED</value>
+        </entry>
+        <entry>
+            <key>32A</key>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">230419USD27523,44</value>
+        </entry>
+        <entry>
+            <key>53A</key>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tag53A">
+                <bic>BOFAUS3NXXX</bic>
+                <nCuenta>/6550-6-27426</nCuenta>
+            </value>
+        </entry>
+        <entry>
+            <key>59</key>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tag59">
+                <ciudad>CO LTD//18F NO1 BUILDING NO487</ciudad>
+                <pais>YANGMUQI RD NINGBO //CHINA</pais>
+                <refPago>NINGBO GREETMED MEDICAL INSTRUMENTS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</refPago>
+                <nCuenta>/392258366732</nCuenta>
+            </value>
+        </entry>
+        <entry>
+            <key>71</key>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">OUR</value>
+        </entry>
+        <entry>
+            <key>20</key>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">FCI000000298Oqp</value>
+        </entry>
+        <entry>
+            <key>57A</key>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">BKCHCNBJ92A</value>
+        </entry>
+    </businessData>
+    <datosDestino>
+        <codigoBanco>I103</codigoBanco>
+        <nombreBanco>ITAUCLR0</nombreBanco>
+        <nCuenta>R0XXXXN</nCuenta>
+    </datosDestino>
+    <datosOrigen>
+        <codigoBanco>F01</codigoBanco>
+        <comprobante>CLR0AXXX</comprobante>
+        <nombreBanco>ITAU</nombreBanco>
+        <nCuenta>0000000000</nCuenta>
+    </datosOrigen>
+    <mapa>
+        <entry>
+            <key>121</key>
+            <value>059a93ab-293d-42f7-b1b5-a18bce4b4289</value>
+        </entry>
+        <entry>
+            <key>108</key>
+            <value>000230419000156</value>
+        </entry>
+    </mapa>
+</transaccion>
