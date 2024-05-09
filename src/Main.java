@@ -9,19 +9,13 @@ import java.util.Map;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws IOException, JAXBException {
-
-
         String content = getContentFromFile();
-
         String[] blocks = getBlocks(content);
         Transaccion transaccion = new Transaccion(getOrigenData(blocks[0]),
                 getDestinoData(blocks[1]),
                 getMap(blocks[2]),
                 getBusinessData(blocks[3]));
-        System.out.println();
         exportFile(transaccion);
-
-
     }
 
     public static String[] getBlocks(String content) {
